@@ -1,89 +1,66 @@
-# Studio Tarcia Madureira — Site Institucional
+# 💄 Studio Tarcia Madureira — Landing Page Profissional
 
-Landing page premium para o studio de beleza **STUDIO TARCIA MADUREIRA** em Janaúba - MG.
+Landing page institucional desenvolvida para o **STUDIO TARCIA MADUREIRA**, um Studio de Beleza localizado em Janaúba - MG, com foco em apresentação profissional, conversão via WhatsApp e presença digital moderna.
 
-**Categoria:** Studio de Beleza · **Serviços:** Design de Sobrancelhas, Maquiagem e Cílios.
-
-Stack: HTML + CSS + JS puro. Deploy: Vercel.
-
----
-
-## Como substituir as imagens
-
-O site está pronto e funcional. As imagens da galeria e do hero já são fotos reais; se quiser trocar por versões mais novas, basta substituir os arquivos na pasta `assets/` mantendo exatamente os mesmos nomes:
-
-| Arquivo atual | O que colocar | Onde aparece |
-|---|---|---|
-| `assets/hero.jpg` | ✅ Foto real enviada (retrato com maquiagem profissional) | Hero section |
-| `assets/galeria-1.jpg` | Foto de design de sobrancelhas | Galeria — posição 1 |
-| `assets/galeria-2.jpg` | Foto de maquiagem + cabelo cacheado | Galeria — posição 2 |
-| `assets/galeria-3.jpg` | Foto de maquiagem com cabelo loiro | Galeria — posição 3 |
-| `assets/galeria-4.jpg` | Foto de cílios + sobrancelhas | Galeria — posição 4 |
-| `assets/galeria-5.jpg` | Foto de maquiagem sofisticada | Galeria — posição 5 |
-| `assets/galeria-6.jpg` | Foto de maquiagem bronze | Galeria — posição 6 |
-| `assets/og-image.jpg` | Imagem 1200x630 para compartilhamento (opcional) | Open Graph (WhatsApp, Facebook, etc.) |
-
-**Dica de tamanho:**
-- Hero: idealmente 800x1000px ou proporção 4:5 (vertical), JPG otimizado
-- Galeria: idealmente 800x800px (quadrado), JPG otimizado
-- OG image: 1200x630px, JPG ou PNG
-
-**Como substituir:**
-1. Salve a foto nova com o mesmo nome do placeholder (ex: `hero.jpg`)
-2. Cole na pasta `assets/` substituindo o arquivo existente
-3. Pronto — o site já referencia esses nomes. Não precisa editar código.
+<p align="center">
+  <a href="https://studio-tarcia-madureira.vercel.app/" target="_blank">
+    <strong>🔗 Acessar site publicado</strong>
+  </a>
+</p>
 
 ---
 
-## Personalizações comuns
+## 📌 Sobre o projeto
 
-### Trocar o número de WhatsApp
-Procure no `index.html` por `5538992202583` e substitua em todas as ocorrências (cerca de 8 lugares — use Substituir Tudo do editor).
+Este projeto foi criado para apresentar os serviços do Studio Tarcia Madureira de forma elegante, responsiva e objetiva. A página foi pensada para pequenos negócios que desejam transmitir profissionalismo, confiança e facilitar o contato direto com clientes pelo WhatsApp.
 
-### Trocar a frase de impacto do Hero
-Edite a `<h1 class="hero-title">` no `index.html` (seção `#inicio`).
-
-### Trocar endereço
-Edite o `<section id="localizacao">` no `index.html` e também a string do iframe (`Rua+Osvaldo+Aranha...`).
-
-### Trocar horário
-Edite o `<section id="horarios">` no `index.html` e o objeto `openingHoursSpecification` dentro do `<script type="application/ld+json">` no `<head>`.
-
-### Trocar cores (paleta)
-Edite as CSS variables no início do `style.css` (`:root { ... }`). As principais são:
-- `--primary` (rose gold)
-- `--accent` (dourado)
-- `--gradient` (gradiente principal)
+O site possui estrutura de landing page, com seções estratégicas para apresentar serviços, localização, avaliações, horários de atendimento e canais de contato.
 
 ---
 
-## Estrutura do projeto
+## ✨ Funcionalidades
 
-```
-studio-tarcia-madureira/
-├── index.html              # Página única
-├── style.css               # Todo o design system e componentes
-├── script.js               # Reveal, menu, status, ano
-├── .gitignore
-├── README.md               # Este arquivo
-├── .vercel/                # Config Vercel
-└── assets/
-    ├── favicon.svg         # Monograma STM
-    ├── og-image.jpg        # (opcional) imagem para redes sociais
-    ├── hero.jpg            # ✅ Foto real enviada
-    ├── galeria-1.jpg       # ✅ Foto real enviada
-    ├── galeria-2.jpg       # ✅ Foto real enviada
-    ├── galeria-3.jpg       # ✅ Foto real enviada
-    ├── galeria-4.jpg       # ✅ Foto real enviada
-    ├── galeria-5.jpg       # ✅ Foto real enviada
-    └── galeria-6.jpg       # ✅ Foto real enviada
-```
+- Layout moderno e responsivo
+- Seção hero com chamada principal
+- Apresentação dos serviços do Studio
+- Galeria de imagens
+- Depoimentos de clientes
+- Botão direto para WhatsApp
+- Seção de localização com endereço
+- Horário de funcionamento
+- FAQ com perguntas frequentes
+- SEO básico para negócios locais
+- Deploy em produção pela Vercel
 
 ---
 
-## Deploy
+## 🛠️ Tecnologias utilizadas
 
-O deploy é feito pela Vercel. Para atualizar o site depois de subir novas imagens:
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Vercel**
+- **Git e GitHub**
+
+---
+
+## 📍 Informações do negócio
+
+**Nome:** STUDIO TARCIA MADUREIRA  
+**Categoria:** Studio de Beleza  
+**Serviços:** Design de Sobrancelhas, Maquiagem e Cílios  
+**Localização:** Rua Osvaldo Aranha, 270 - Padre Eustáquio, Janaúba - MG  
+**WhatsApp:** (38) 99220-2583
+
+---
+
+## 🚀 Deploy
+
+O projeto está publicado na Vercel:
+
+🔗 **https://studio-tarcia-madureira.vercel.app/**
+
+Para fazer um novo deploy manualmente:
 
 ```bash
 cd C:\Users\angel\studio-tarcia-madureira
@@ -92,7 +69,96 @@ vercel --prod
 
 ---
 
-## Contato técnico
+## 📂 Estrutura do projeto
 
-Angelo Antunes — desenvolvedor.
-WhatsApp do studio: (38) 99220-2583
+```text
+studio-tarcia-madureira/
+├── assets/
+│   ├── favicon.svg
+│   ├── hero.jpg
+│   ├── galeria-1.jpg
+│   ├── galeria-2.jpg
+│   ├── galeria-3.jpg
+│   ├── galeria-4.jpg
+│   ├── galeria-5.jpg
+│   └── galeria-6.jpg
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🧩 Como editar o projeto
+
+### Alterar WhatsApp
+
+No arquivo `index.html`, procure por:
+
+```text
+5538992202583
+```
+
+Substitua pelo novo número no formato internacional.
+
+### Alterar imagens
+
+Substitua os arquivos dentro da pasta `assets/`, mantendo os mesmos nomes.
+
+Exemplo:
+
+```text
+assets/hero.jpg
+assets/galeria-1.jpg
+assets/galeria-2.jpg
+```
+
+### Alterar cores
+
+As principais cores ficam no início do arquivo `style.css`, dentro de:
+
+```css
+:root {
+  --primary: ...;
+  --accent: ...;
+}
+```
+
+---
+
+## 📱 Responsividade
+
+O site foi desenvolvido para funcionar corretamente em:
+
+- Celulares
+- Tablets
+- Notebooks
+- Desktops
+
+---
+
+## 🎯 Objetivo do projeto
+
+Este projeto faz parte do meu portfólio como desenvolvedor, demonstrando a criação de uma página profissional para negócios locais com foco em:
+
+- Presença digital
+- Conversão de clientes
+- Design responsivo
+- Identidade visual
+- Publicação na web
+
+---
+
+## 👨‍💻 Desenvolvedor
+
+Desenvolvido por **Ângelo Antunes**.
+
+GitHub: [@angeloantunesdarocha](https://github.com/angeloantunesdarocha)
+
+---
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins de portfólio e demonstração profissional.
